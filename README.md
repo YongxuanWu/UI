@@ -36,6 +36,7 @@
         alertDialog.show();
     }
 ```
+```
     @Override
     public boolean onCreateOptionsMenu(Menu menu){
         MenuInflater inflater = new MenuInflater(this);
