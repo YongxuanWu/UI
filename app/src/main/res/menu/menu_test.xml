@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="@string/font_size">
+        <menu>
+            <item
+                android:id="@+id/font_10"
+                android:title="@string/font_10"/>
+            <item
+                android:id="@+id/font_16"
+                android:title="@string/font_16"/>
+            <item
+                android:id="@+id/font_20"
+                android:title="@string/font_20"/>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/normal"
+        android:title="@string/normal_choice">
+    </item>
+
+    <item
+        android:title="@string/font_color">
+        <menu>
+            <item
+                android:id="@+id/color_red"
+                android:title="@string/red"/>
+            <item
+                android:id="@+id/color_black"
+                android:title="@string/black" />
+        </menu>
+    </item>
+</menu>
